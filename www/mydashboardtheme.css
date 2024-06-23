@@ -1,0 +1,93 @@
+h2{
+  color:#0073b7!important;
+  font-weight:bold;
+  font-size:2em;
+}
+p{
+  font-size:1.2em
+}
+.link{
+  margin-bottom:30px;
+  margin-top:30px;
+  font-size:1.2em;
+  -webkit-transition-duration:.3s;transition-duration:.3s;-webkit-transition-property:transform;transition-property:transform;-webkit-transition-timing-function:ease-out;transition-timing-function:ease-out
+}
+.link:hover{
+  -webkit-transform:translateY(-10px);transform:translateY(-10px)
+}
+.small-box>.inner{
+  padding:15px;
+}
+.small-box .icon-large{
+  right:15px;
+}
+.small-box h3:hover, .small-box p:hover{
+   transform: scale(1.08);
+}
+.small-box h3, .small-box p{
+  transition: transform 0.3s;
+  cursor:pointer;
+}
+.info-box-number{
+  font-size:30px 
+}
+.footer{
+  margin: 20px 0 10px 0;
+  text-align: center
+}
+.girafe{
+  height:auto !important;
+  transition: transform 1s;
+}
+.girafe:hover{
+   transform: scale(1.3);
+   border-radius:10px;
+   padding-top:10px;
+   background:#ffffff;
+   position:relative;
+   border-top: 3px solid #d2d6de;
+   box-shadow: 0 1px 1px rgba(0,0,0,.1);
+   z-index:999;
+}
+/* label inputpicker */
+.label-PULSA{
+  background-color: rgb(0, 169, 255); 
+}
+
+.label-PLN-POSTPAID{
+  background-color: rgb(0, 169, 255); 
+  /* background-color: rgb(0, 191, 196); */
+}
+
+.label-BPJS{
+  background-color: rgb(0, 169, 255); 
+  /* background-color: rgb(248, 118, 109); */
+}
+
+.label-TOKEN-PLN{
+  background-color: rgb(0, 169, 255); 
+  /* background-color: rgb(255, 97, 204); */
+}
+
+.label-EWALLET{
+  background-color: rgb(0, 169, 255); 
+  /* background-color: rgb(205, 150, 0); */
+}
+
+.label-TELEPON-PASCA{
+  background-color: rgb(0, 169, 255); 
+  /* background-color: rgb(199, 124, 255); */
+}
+
+.label-MULTIFINANCE{
+  background-color: rgb(0, 169, 255); 
+  /* background-color: rgb(124, 174, 0); */
+}
+
+.label-PDAM{
+  background-color: rgb(0, 169, 255); 
+  /* background-color: rgb(0, 190, 103); */
+}
+.input-group-sm>.form-control, .input-group-sm>.input-group-btn>.btn {
+  font-size:16px !important;
+}
